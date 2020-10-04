@@ -16,13 +16,16 @@ Lot 1 and 2 meet the design specification since the variance is less than 100 wh
 <img src="Resources/Deliverable2.JPG" width="800">
 
 ## T-Tests on Suspension Coils
- * Since its p-value(0.5117) is more than 0.05, we can not reject the null hypothesis. Thus we state that the PSI across all manufacturing lots are not statistically different from the population mean of 1,500 pounds per square inch.
- *Since lot1,2 and 3's p-value(0.9048, 0.3451, 0.637) are all more than 0.05, we can not reject the null hypothesis therefore we state that the PSI across all manufacturing lots is not statistically different from the population mean of 1,500 pounds per square inch.
-<img src="Resources/Deliverable.3_Lot_subset.JPG" width="800">
-<img src="Resources/Deliverable.3_Lot1.JPG" width="800">
-<img src="Resources/Deliverable.3_Lot2.JPG" width="800">
-<img src="Resources/Deliverable.3_Lot3.JPG" width="800">
-
+ * Since the p-value(0.5117) for the manufacturing lots in total is above our assumed signinficance level of 0.05, we can state that there is not enough evidence to reject the null hypothesis. Thus we say that the PSI across all manufacturing lots are not statistically different from the population mean of 1,500 pounds per square inch.
+ *Since the p-value for manufacturing lot1, lot2 and lot3 (0.9048, 0.3451, 0.637) are all above our assumed significance level of 0.05, we can not reject the null hypothesis therefore we state that the PSI across all manufacturing lots is not statistically different from the population mean of 1,500 pounds per square inch.
+<img src="Resources/Deliverable3_Lot_subset.JPG" width="800">
+<img src="Resources/Deliverable3_Lot1.JPG" width="800">
+<img src="Resources/Deliverable3_Lot2.JPG" width="800">
+<img src="Resources/Deliverable3_Lot3.JPG" width="800">
 
 ## Study Design: MechaCar vs Competition
-*
+*In this study, we are going to test the metrics of cost for MechaCar and compre it with its competitor. The following hypothesis will be tested:
+H0: There is no statistical difference between MechaCar and its competitor.
+H1: There is a statistical difference between MechaCar and its competitor.
+Since we are comparing the distribution mean from two samples, we will use Two-Sample t-Test. It will allow us to observe if there is difference in terms of cost between MechaCar and its competitor. We will then determine if their relationship is negative or positive and if there is a benefit to do further analysis.
+For example, first, we will specify the model of car from MechaCar we would like to test and then identify the similar model from its competitor. Next we will collect the data on cost of the 2 models and calculate the mean. After that we will perform a Two-Sample t-Test on the mean of both car model. If it is found that there is a statistical difference between MechaCar and its competitor, and its negative; we can then dig down to which components of the car caused the difference and see if we we lower the cost of that component in order to lower the overall cost to make our product more cost competitive.
