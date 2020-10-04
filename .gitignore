@@ -1,6 +1,9 @@
 # History files
 .Rhistory
 .Rapp.history
+# Excel files
+MechaCar_mpg.csv
+Suspension_Coil.csv
 
 # Session Data files
 .RData
