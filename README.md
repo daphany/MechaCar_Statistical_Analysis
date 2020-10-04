@@ -1,6 +1,6 @@
-# MechaCar_Statistical_Analysis
+# MechaCar Statistical Analysis
 ## Linear Regression to Predict MPG
-* Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset? 
+* Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset? \n
 Pr(>|t|)
 * Is the slope of the linear model considered to be zero? Why or why not?
 H0 : The slope of the linear model is zero, or m = 0
